@@ -1,0 +1,179 @@
+/* reset */
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3rem;
+}
+
+/* start */
+
+/* CORPO E FONTES */
+.articles article p,
+.articles article a
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3
+{
+    font-size: 24px;
+}
+
+section h2
+{
+    font-size: 32px;
+}
+
+h1
+{
+    font-size: 40px;
+    font-family: ;
+}
+
+/* _______MENU________ */
+body > header
+{
+    background-color: #000000;
+    padding: 36px;
+    color: #f5f6fa;    
+}
+
+header .container
+{
+    display: flex;
+    justify-content: center;
+}
+
+header li
+{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 68px;
+}
+
+header li a
+{
+    color: #f5f6fa;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* HERO */
+.hero {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/* ARTIGOS */
+.container
+{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.articles
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* IMAGENS */
+.articles article img
+{
+    width: 100%;
+}
+
+.articles article
+{
+    width: 30%;
+}
+
+section
+{
+    padding: 16px;
+}
+
+section h2,
+.articles article
+{
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+
+.articles article h3
+{
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+/* BOTAO */
+.articles article a
+{
+    background-color: blue;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.articles article a:hover
+{
+    text-decoration:underline
+}
+
+/* BACKGROUND */
+#esportes
+{
+    background-color: rgba(0, 255, 0 ,0.1);
+}
+
+#esportes .articles article a
+{
+    background-color: #009432;
+}
+
+/* ECONOMIA */
+#economia
+{
+    background-color: #fffdc9;
+}
+
+#economia .articles article a
+{
+    background-color: #bf7d21;
+}
+
+
+/* ENTRETENIMENTO */
+#entretenimento
+{
+    background-color: #c3e3f3;
+}
+
+#entretenimento .articles article a
+{
+    background-color: #2126bf;
+}
+
+/* TECNOLOGIA */
+#tecnologia
+{
+    background-color: #c2c2c2;
+}
+
+#tecnologia .articles article a
+{
+    background-color: #2f2f35;
+}
