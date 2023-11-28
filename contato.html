@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gols Ilustrados - Contato</title>
+
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header{
+            padding: 16px;
+            background-color: black;
+            color: white;
+        }
+        
+        header nav li{
+            display: inline;
+            font-size: 24px;
+            margin-left: 80px;
+        }
+        
+        header nav li a{ 
+            color: white;
+            text-decoration: none;
+        }
+        
+        .container  {
+            max-width: 1280px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        header .container,
+        section .container{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+        }
+
+        .redes_sociais img{
+            height: 100px;
+            margin-left: 40%;
+            
+        }
+
+        .redes_sociais li{
+            display: inline;
+        }
+
+        section .container{
+            align-items: flex-start;
+        }
+
+        section{
+            padding: 24px 0;
+        }
+
+        section h2{
+            margin-bottom: 4px;
+        }
+
+        section p{
+            margin-bottom: 8px;
+        }
+
+        .ilustrador_marco{
+        margin-right: 32px;
+        }
+
+        .social-links img{
+            height: 24px;
+        }
+
+        .social-links li{
+            display:inline;
+            margin-right: 8px;
+        }
+
+        .social-links li a{
+            text-decoration: none;
+        }
+
+        #contact .container {
+            display: block;
+        } 
+
+        .contact_metods{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        form input, form textarea, form button{
+            display: block;
+            width: 320px;
+            margin-bottom: 8px;
+            padding: 8px;
+        }
+
+        form textarea{
+            resize: none;
+            height: 180px;
+        }
+
+        section h3{
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        form button{
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 16px;
+        }
+
+        form button:hover{
+            background-color: rgb(93, 91, 91);
+            color: black;
+        }
+
+        input:focus, textarea:focus{
+            outline-color: black;
+        }
+
+        footer{
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            background-color: black;
+            color: white;
+            padding: 16px 0;
+            text-align: center;
+        }
+
+
+
+
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+                <nav>
+                <ul>
+                    <li>
+                        <a href="/home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/ilustracoes.html">Ilustrações</a>
+                    </li>
+                </ul>
+            </nav>    
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <img class="ilustrador_marco" src="/images/marco.jpg" alt="Imagem do ilustrador">
+            <div>
+                <h2>Marco Sousa</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia molestias laborum sunt libero tenetur, ea ducimus officiis vitae, ratione quae assumenda? Debitis neque voluptate, architecto pariatur sed maiores quisquam unde?
+                </p>
+                <p>
+                    Architecto odit incidunt, corrupti obcaecati explicabo iste. Exercitationem dignissimos ipsa commodi aliquam facilis, voluptates rerum beatae. Quod dolorem vero totam, quis odit aliquam autem nulla eveniet placeat, quasi, cumque doloremque!
+                </p>
+                <ul class="redes_sociais">
+                    <li><img src="/images/gols_ilustrados.png" alt="Gols Ilustrados"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>            
+            <div class="contact_metods">
+                <div>
+                    <h3>Fale com o Ilustrador</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <input type="tel" placeholder="Seu telefone (opcional)">
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Seguir</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Me siga no Instagram">
+                                <img src="/images/instagram.png" alt="Logo do Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Me siga no Facebook">
+                                <img src="/images/facebook.png" alt="Logo do Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite meu canal no YouTube">
+                                <img src="/images/youtube.png" alt="Logo do Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Endereço</h3>
+                    <p>
+                        Rua Gols Ilustrados n 68, Vila do Futebol - São Paulo - SP
+                    </p>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Gols Ilustrados - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
